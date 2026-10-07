@@ -7,7 +7,7 @@ body {
 
 .container {
     width: 1920px;
-    height: 2160px;
+    height: 1080px;
     margin: 0 auto;
     padding: 0px;
     background-color: #A374FF;
@@ -60,8 +60,29 @@ h1 {
     height: 1080px;
     margin: 0 auto;
     padding: 0px;
+    background-color: #A374FF;
+    font-size: 1.3em;
+    text-align: center;
+    color:white;
+}
+
+h2 {
+    color: #fff;
+    margin-top: 0px;
+}
+
+.container-3 {
+    width: 1920px;
+    height: 1080px;
+    margin: 0 auto;
+    padding: 0px;
     background-color: #6645A7;
     background: linear-gradient(to top, #6645A7, #A374FF);
+}
+
+h3{
+ font-size: 2em;
+ margin-top: 0;
 }
 
 footer {
