@@ -19,6 +19,11 @@ body {
     padding: 0px;
     background-color: #A374FF;
     background: linear-gradient(to bottom, #ab87fa, #A374FF);
+    color: white;
+}
+
+.scroll{
+    font-size: 1.6em;
 }
 
 header {
