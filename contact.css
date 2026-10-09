@@ -17,7 +17,7 @@ header {
     padding: 40px;
     display: flex;
     justify-content: space-around;
-    background-color: #6645A7;
+    background-color: #1d1136;
     color: #fff;
     font-size: 2em;
 
@@ -38,18 +38,20 @@ section{
     margin: 0 auto;
     padding: 0px;
     background-color: #A374FF;
-    background: linear-gradient(to bottom, #ab87fa, #A374FF);
+    background: linear-gradient(to bottom, #1d1136, #A374FF);
 
      .box1{
-        margin-top: 50px;
+        margin-top: 150px;
         width: 500px;
-        height: 650px;
-        border-radius: 10%;
+        height: 150px;
+        border-radius: 9%;
         background-color: white;
         text-align: center;
-        
+        display: flex;
+
         h1{
-            margin-top: 0;
+        margin-left: 40px;
+        margin-top: 50px;
         }
     }
 }
