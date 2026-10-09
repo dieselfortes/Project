@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    a:hover{ 
+        color: black;
+    }
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #6645A7;
+    color: #fff;
+    font-size: 2em;
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.container {
+    width: 1920px;
+    height: 874px;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: #A374FF;
+    background: linear-gradient(to bottom, #ab87fa, #A374FF);
+    p{
+        color: white;
+        text-align: center;
+    }
+
+    h1 {
+        text-align:center;
+        margin: 0;
+        color: white;
+    }
+}

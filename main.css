@@ -1,4 +1,4 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -7,6 +7,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    a:hover{ 
+        color: black;
+    }
 }
 
 .container {
@@ -41,7 +44,7 @@ header {
 }
 
 .content {
-    position:absolute;
+    position: absolute;
     top: 260px;
     left: 240px;
     text-align: center;
@@ -67,7 +70,7 @@ h1 {
     background-color: #A374FF;
     font-size: 1.3em;
     text-align: center;
-    color:white;
+    color: white;
 }
 
 h2 {
@@ -76,24 +79,41 @@ h2 {
     padding-top: 200px;
 }
 
-.container-3{
+.container-3 {
     width: 1920px;
     height: 1080px;
     margin: 0 auto;
     padding: 0px;
     background-color: #6645A7;
     background: linear-gradient(to top, #6645A7, #A374FF);
-    display:flex;
-    flex-direction:column;
 }
 
-h3{
- font-size: 2em;
- margin-top: 0;
- margin-bottom: 0;
- color: white;
- padding-top: 188px;
- text-align: center;
+h3 {
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 150;
+    color: white;
+    padding-top: 188px;
+    text-align: center;
+}
+
+.placeholder-position {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.placeholder {
+    width: 500px;
+    height: 500px;
+    border-radius: 10%;
+    background-color: white;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
 }
 
 footer {
