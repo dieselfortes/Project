@@ -13,9 +13,9 @@ body {
 }
 
 .container {
-    width: 1920px;
+    width: 1905px;
     height: 1080px;
-    margin: 0 auto;
+    margin: 0;
     padding: 0px;
     background-color: #A374FF;
     background: linear-gradient(to bottom, #ab87fa, #A374FF);
@@ -28,7 +28,7 @@ body {
 
 header {
     position: sticky;
-    top: 0;
+    width: 1905px;
 }
 
 .nav-links {
@@ -49,10 +49,10 @@ header {
 }
 
 .content {
-    position: absolute;
-    top: 260px;
-    left: 240px;
-    text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
 }
 
 h1 {
@@ -68,7 +68,7 @@ h1 {
 }
 
 .container-2 {
-    width: 1920px;
+    width: 1905px;
     height: 1080px;
     margin: 0 auto;
     padding: 0px;
@@ -85,7 +85,7 @@ h2 {
 }
 
 .container-3 {
-    width: 1920px;
+    width: 1905px;
     height: 1080px;
     margin: 0 auto;
     padding: 0px;
@@ -113,7 +113,9 @@ h3 {
     height: 500px;
     border-radius: 10%;
     background-color: white;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     a {
         text-decoration: none;
