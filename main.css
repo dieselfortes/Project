@@ -13,13 +13,16 @@ body {
 }
 
 .container {
-    width: 1905px;
-    height: 1080px;
+    width: 99.2vw;
+    height: 100vh;
     margin: 0;
     padding: 0px;
     background-color: #A374FF;
     background: linear-gradient(to bottom, #ab87fa, #A374FF);
     color: white;
+    p{
+        text-align: center;
+    }
 }
 
 .scroll{
@@ -28,7 +31,7 @@ body {
 
 header {
     position: sticky;
-    width: 1905px;
+    width: 99.2vw;
 }
 
 .nav-links {
@@ -68,8 +71,8 @@ h1 {
 }
 
 .container-2 {
-    width: 1905px;
-    height: 1080px;
+    width: 99.2vw;
+    height: 100vh;
     margin: 0 auto;
     padding: 0px;
     background-color: #A374FF;
@@ -85,8 +88,8 @@ h2 {
 }
 
 .container-3 {
-    width: 1905px;
-    height: 1080px;
+    width: 99.2vw;
+    height: 100vh;
     margin: 0 auto;
     padding: 0px;
     background-color: #6645A7;
@@ -109,8 +112,8 @@ h3 {
 }
 
 .placeholder {
-    width: 500px;
-    height: 500px;
+    width: 22vw;
+    height: 40vh;
     border-radius: 10%;
     background-color: white;
     display: flex;
@@ -128,4 +131,5 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px;
-}
+    }
+
