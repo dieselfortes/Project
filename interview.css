@@ -27,8 +27,8 @@ header {
 }
 
 .container {
-    width: 1920px;
-    height: 874px;
+    width: 100vw;
+    height: 88.2vh;
     margin: 0 auto;
     padding: 0px;
     background-color: #A374FF;
