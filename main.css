@@ -112,18 +112,12 @@ h3 {
 }
 
 .placeholder {
-    width: 22vw;
-    height: 40vh;
-    border-radius: 10%;
-    background-color: white;
+    border-radius: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    a {
-        text-decoration: none;
-        color: black;
-    }
+    width: 400px;
+    height: auto;
 }
 
 footer {
