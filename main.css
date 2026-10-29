@@ -17,8 +17,7 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0px;
-    background-color: #A374FF;
-    background: linear-gradient(to bottom, #ab87fa, #A374FF);
+    background-color: #573797;
     color: white;
     p{
         text-align: center;
@@ -65,17 +64,18 @@ h1 {
 }
 
 .description {
-    font-size: 2em;
+    font-size: 2.5em;
     color: #fff;
     margin-bottom: 40px;
 }
+
 
 .container-2 {
     width: 99.2vw;
     height: 100vh;
     margin: 0 auto;
     padding: 0px;
-    background-color: #A374FF;
+    background-color: #573797;
     font-size: 1.3em;
     text-align: center;
     color: white;
@@ -89,11 +89,10 @@ h2 {
 
 .container-3 {
     width: 99.2vw;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0 auto;
     padding: 0px;
-    background-color: #6645A7;
-    background: linear-gradient(to top, #6645A7, #A374FF);
+    background-color: #573797;
 }
 
 h3 {
@@ -125,5 +124,12 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px;
+    }
+ 
+    @media (max-width: 1000px){
+        .placeholder-position{
+            flex-direction: column;
+            align-items: center;
+        }
     }
 
