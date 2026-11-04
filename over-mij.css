@@ -1,0 +1,43 @@
+.container-2 {
+    width: 99.2vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0px;
+    background-color: #573797;
+    font-size: 1.3em;
+    text-align: center;
+    color: white;
+    h2{
+        margin: 0;
+        padding: 40px;
+    }
+}
+
+body{
+    margin: 0;
+}
+
+section{
+    margin: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1d1136;
+    color: #fff;
+    font-size: 2em;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
