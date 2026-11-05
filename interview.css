@@ -16,10 +16,11 @@ header {
     padding: 40px;
     display: flex;
     justify-content: space-around;
-    background-color: #6645A7;
+    background-color: #1d1136;
     color: #fff;
     font-size: 2em;
-
+         border-bottom-style:solid ;
+         border-color: #c18cfd;
     a{
         text-decoration: none;
         color: white;
@@ -31,8 +32,7 @@ header {
     height: 88.2vh;
     margin: 0 auto;
     padding: 0px;
-    background-color: #A374FF;
-    background: linear-gradient(to bottom, #ab87fa, #A374FF);
+  background: linear-gradient(to bottom, #1d1136, #A374FF);
     p{
         color: white;
         text-align: center;

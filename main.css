@@ -14,6 +14,8 @@ body {
     a:hover{ 
         color: black;
     }
+   
+    background: linear-gradient(to bottom, #1d1136, #A374FF);
 }
 
 .container {
@@ -21,7 +23,7 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0px;
-    background-color: #573797;
+   
     color: white;
     p{
         text-align: center;
@@ -49,11 +51,14 @@ header {
     padding: 40px;
     display: flex;
     justify-content: space-around;
-    background-color: #6645A7;
+
     color: #fff;
     font-size: 1.5em;
     width: 100dvw;
      display: flex;
+         background-color: #251645;
+         border-bottom-style:solid ;
+         border-color: #c18cfd;
 }
 
 .link {
@@ -92,10 +97,10 @@ h2 {
     min-height: 100vh;
     margin: 0 auto;
     padding: 0px;
-    background-color: #573797;
+  
 }
 
-h3 {
+h2 {
     font-size: 2em;
     margin-top: 0;
     margin-bottom: 150;
@@ -116,23 +121,39 @@ h3 {
     justify-content: center;
     align-items: center;
     width: 400px;
-    height: auto;
+    height: 350px   ;
 }
 
 footer {
-    background-color: #573797;
-    color: #fff;
+       background-color: #A374FF;
+    color: #050505;
     text-align: center;
     padding: 20px;
+             background-color: #251645;
+         border-top-style:solid ;
+         border-color: #f7f6f8;
+     .footer-home{
+        color: rgb(252, 252, 252);
+     }
     }
  
     @media (max-width: 1000px){
         .placeholder-position{
             flex-direction: column;
             align-items: center;
+            gap: 75px;
         }
         .nav-links{
             font-size: 1em;
         }
+    @media (max-width: 600px){
+        .link-2{
+            display: none;
+        }
+        .placeholder{
+            max-width: 200px;
+            max-height: 150px;
+        }
+    }    
     }
 

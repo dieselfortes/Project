@@ -3,7 +3,7 @@
     height: 100vh;
     margin: 0;
     padding: 0px;
-    background-color: #573797;
+   
     font-size: 1.3em;
     text-align: center;
     color: white;
@@ -15,6 +15,7 @@
 
 body{
     margin: 0;
+     background: linear-gradient(to bottom, #1d1136, #A374FF);
 }
 
 section{
@@ -35,7 +36,8 @@ header {
     background-color: #1d1136;
     color: #fff;
     font-size: 2em;
-
+         border-bottom-style:solid ;
+         border-color: #c18cfd;
     a {
         text-decoration: none;
         color: white;
