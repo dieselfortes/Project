@@ -1,3 +1,9 @@
+   *{
+        color: white;
+        text-align: center;
+    }
+
+
 body {
     margin: 0;
     a:hover{ 
@@ -33,14 +39,18 @@ header {
     margin: 0 auto;
     padding: 0px;
   background: linear-gradient(to bottom, #1d1136, #A374FF);
-    p{
-        color: white;
-        text-align: center;
-    }
 
     h1 {
         text-align:center;
         margin: 0;
         color: white;
+    }
+    table{
+        display: flex;
+        justify-content: center;
+        border: 1px solid;
+        max-width: 30%;
+        margin: 20px auto;
+        font-size: 1.3em;
     }
 }
