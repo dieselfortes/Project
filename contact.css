@@ -69,6 +69,26 @@ section{
         justify-content: center;
         align-items: center;
         margin-top: 50px;
+        input{
+            width: 300px;
+            height: 30px;
+            border-radius: 5%;
+            border: 1px solid #c18cfd;
+        }
+        textarea{
+            width: 300px;
+            height: 100px;
+            border-radius: 5%;
+            border: 1px solid #c18cfd;
+        }
+        button{
+            width: 100px;
+            height: 45px;
+            border-radius: 5%;
+            border: 1px solid #c18cfd;
+            background-color: #1d1136;
+            color: white;
+        }
     }
 
     }
